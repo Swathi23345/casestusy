@@ -1,5 +1,6 @@
-from dao.definitions import InsertIntoTask, UpdatePriority, UpdateNotes, UpdateBookmark, UpdateStatus, \
-    InsertIntoUser, AllTasksUser, TasksBasedOnStatus, AllTasks, AssignTask
+from dao.InsertUser import InsertIntoTask, UpdatePriority, UpdateNotes, UpdateBookmark, UpdateStatus, \
+    InsertIntoUser, AssignTask
+from report import AllTasksUser, TasksBasedOnStatus, AllTasks
 from dao.user_task_classes import ForTask, ForUser
 
 func = input(""" Choose one:
